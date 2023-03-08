@@ -1,0 +1,43 @@
+.style-menu {
+    background-color: aqua;
+    display:flex;
+    flex-direction:row;
+    margin-right:200px;
+}
+.nav_bar{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color:brown;
+    font-size:8px;
+    color:#ffff;
+
+
+}
+.tuski{
+    background-color: blueviolet;
+}
+.btn-1{
+    cursor:pointer;
+}
+.aayam_img{
+    width:80px;
+}
+.dropdown_items{
+    display:flex;
+    flex-direction:column;
+    color:red;
+}
+.nav-ul{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+list-style: none;
+
+}
+.course-link{
+    color:dimgray;
+    text-decoration: none;
+    margin-top:7px;
+
+}
