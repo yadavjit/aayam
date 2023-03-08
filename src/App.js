@@ -11,6 +11,7 @@ import Courses from "./components/Courses";
 import FoundationOneneet from './components/FoundationOneneet';
 import FoundationTwoneet from './components/FoundationTwoneet';
 import TargetCourseneet from './components/TargetCourseneet';
+import Home from './components/Home';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <Routes>
       
       {/* <Route path="/" element={<Home/>}/> */}
+      <Route  path="/home" element={<Home/>}/>
       <Route exact path="/courses" element={<Courses/>}/>
       <Route exact path="/foundationoneneet" element={<FoundationOneneet/>}/>
       <Route exact path="/foundationtwoneet" element={<FoundationTwoneet/>}/>
