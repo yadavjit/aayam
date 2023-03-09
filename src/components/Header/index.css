@@ -1,10 +1,10 @@
-.style-menu {
+/* .style-menu {
     background-color: aqua;
     display:flex;
     flex-direction:row;
     margin-right:200px;
-}
-.nav_bar{
+} */
+/* .nav_bar{
     display: flex;
     flex-direction:row;
     justify-content: space-between;
@@ -13,31 +13,50 @@
     color:#ffff;
 
 
-}
-.tuski{
+} */
+/* .tuski{
     background-color: blueviolet;
 }
 .btn-1{
     cursor:pointer;
-}
+} */
 .aayam_img{
     width:80px;
 }
-.dropdown_items{
+/* .dropdown_items{
     display:flex;
     flex-direction:column;
     color:red;
-}
-.nav-ul{
+} */
+/* .nav-ul{
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+justify-content:right;
 list-style: none;
 
-}
+} */
 .course-link{
-    color:dimgray;
+    color:initial;
     text-decoration: none;
-    margin-top:7px;
+    margin-top:8px;
+    
 
+}
+.home-link{
+    color:initial;
+    text-decoration: none;
+    margin-top:8px;
+    margin-right: 12px;
+    
+}
+ 
+    
+
+
+.top-section{
+    background-color: brown;
+    
+}
+.nav-option{
+    color:#ffff;
 }
