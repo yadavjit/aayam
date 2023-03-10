@@ -2,3 +2,10 @@
     list-style-type: ">";
     
 }
+.list-item{
+    margin-right: 0%;
+}
+
+.notification-style{
+    list-style-type: ">>";
+}

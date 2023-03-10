@@ -3,6 +3,7 @@ import "./index.css"
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import { Badge } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 // import Sonnet from '../../components/Sonnet';
 
@@ -10,6 +11,7 @@ import { Badge } from 'react-bootstrap';
 const Notifications = () => {
   return (
     <>
+    
         <Tabs
       defaultActiveKey="notifications"
       transition={false}
@@ -17,15 +19,18 @@ const Notifications = () => {
       className="mb-3"
     >
       <Tab eventKey="notifications" title="Notifications">
-      <h1>Comming Sooon <Badge bg="secondary">New</Badge></h1> 
+      
+        <ul className='notification-style'>
+          <li>YGSO registration open now <Badge bg="danger">New</Badge></li>
+        </ul>
       </Tab>
       
       <Tab eventKey="newcourses" title="New Courses">
-      <h1>Comming Sooon.</h1>  
+        <p>Comming Soon..</p>  
       </Tab>
       
       <Tab eventKey="results" title="Results">
-      <h1>Comming Sooon..</h1>  
+        <p>Comming Soon...</p>  
       </Tab>
     </Tabs>
     </>
