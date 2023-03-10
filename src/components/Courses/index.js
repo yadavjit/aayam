@@ -17,13 +17,15 @@ const Courses = () => {
 
       <div className="course-card">
       <div>
-      <Link to="/foundationoneneet">
+      {/* <Link to="/foundationoneneet"> */}
         <div className="card">
           <h1 className='head'>Foundation-1</h1>
           <p className="para-course">Two year course leads building up of student’s basic and creating a wonderful foundation to get success in the NEET. This course differentiate the student from the...</p>
+          <Link to="/foundationoneneet">
           <button type="button" className=' btn btn-primary'>View Details</button>
-        </div>
-      </Link>
+          </Link>
+      
+      </div>
       </div>
 
       <div>
