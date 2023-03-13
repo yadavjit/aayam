@@ -81,18 +81,22 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
+
 
 const Header=()=> {
   return (
     <>
     {/* <Container className="top-section"> */}
-    <Navbar bg="danger" expand="lg" className="top-section" >
+    <Navbar  expand="lg" className="top-section" >
       {/* <Container className="top-section"> */}
-        <Navbar.Brand href="#home"><img src="https://www.aayamcareerinstitute.com/assets/images/aayam-logo-1.png" className="aayam_img" alt="aayam-logo"/></Navbar.Brand>
+        {/* <Navbar.Brand href="#home"><img src="https://www.aayamcareerinstitute.com/assets/images/aayam-logo-1.png" className="aayam_img" alt="aayam-logo"/></Navbar.Brand> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             {/* <Nav.Link href="#home">Home</Nav.Link> */}
+            
             <Link to="/" className="home-link">HOME</Link>
             {/* <Nav.Link href="#link">Link</Nav.Link> */}
             <Link to="/courses" className="course-link">COURSES</Link>
@@ -110,20 +114,19 @@ const Header=()=> {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown> */}
-
-            <NavDropdown title="ABOUT US"  id="basic-nav-dropdown" className="nav-option">
-              <NavDropdown.Item><Link to="/aboutaayam">About AAYAM</Link></NavDropdown.Item>
-              <NavDropdown.Item>
-                <Link to="/journeyofaayam">Journey and Milestones</Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item>
-              <Link to="/ourmission">Our Mission</Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item><Link to="/ourvision">Our Vision</Link></NavDropdown.Item>
-              <NavDropdown.Item ><Link to="/awards">Awards & Recognitions</Link></NavDropdown.Item>
-              <NavDropdown.Item ><Link to="/directors">Board of Directors</Link></NavDropdown.Item>
-              <NavDropdown.Item ><Link to="/faculty">Faculty Pannel</Link></NavDropdown.Item>
-              <NavDropdown.Item ><Link to="whyaayam">Why AAYAM</Link></NavDropdown.Item>
+              <NavDropdown title={<span className="text-light">ABOUT US</span>} id="basic-nav-dropdown" className="nav-option">
+                <NavDropdown.Item><Link to="/aboutaayam">About AAYAM</Link></NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to="/journeyofaayam">Journey and Milestones</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to="/ourmission">Our Mission</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item><Link to="/ourvision">Our Vision</Link></NavDropdown.Item>
+                <NavDropdown.Item ><Link to="/awards">Awards & Recognitions</Link></NavDropdown.Item>
+                <NavDropdown.Item ><Link to="/directors">Board of Directors</Link></NavDropdown.Item>
+                <NavDropdown.Item ><Link to="/faculty">Faculty Pannel</Link></NavDropdown.Item>
+                <NavDropdown.Item ><Link to="whyaayam">Why AAYAM</Link></NavDropdown.Item>
               
               <NavDropdown.Divider />
               {/* <NavDropdown.Item href="#action/3.4">
@@ -131,8 +134,7 @@ const Header=()=> {
               </NavDropdown.Item> */}
             </NavDropdown>
 
-            <NavDropdown title="STUDENT PROFILE" id="basic-nav-dropdown">
-            
+            <NavDropdown title={<span className="text-light">STUDENT PROFILE</span>} id="basic-nav-dropdown">
               <NavDropdown.Item><Link to="/registrationform">Registration</Link></NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Online Platform
@@ -140,9 +142,14 @@ const Header=()=> {
               <NavDropdown.Item href="#action/3.3">Pay Fee Online</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Lakshya Test Series</NavDropdown.Item>
             </NavDropdown>
-
-            <NavDropdown title="EXAMS" id="basic-nav-dropdown">
-            
+            {/* <Tabs>
+            <Tab eventKey="notifications" title="Notifications">
+      
+      <ul className='notification-style'>
+        <li><Link to="/courses">YGSO registration open now</Link></li>
+      </ul>
+    </Tab></Tabs> */}
+            <NavDropdown title={<span className="text-light">EXAMS</span>} id="basic-nav-dropdown">
               <NavDropdown.Item><Link to="/neetug">NEET UG</Link></NavDropdown.Item>
               <NavDropdown.Item>
                 <Link to="/jeemains">JEE Mains</Link>
@@ -150,13 +157,31 @@ const Header=()=> {
               <NavDropdown.Item>
               <Link to="/jeeadvance">JEE Advance</Link></NavDropdown.Item>
             </NavDropdown>
+            
+            
 
-              <NavDropdown title="RESULTS"  className="nav-option">
+            <NavDropdown title={<span className="text-light">RESULTS</span>} className="nav-option">
               <NavDropdown.Item href="#action/3.1">Online Test Results</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Offline Test Results
               </NavDropdown.Item>
             </NavDropdown> 
+
+            <Link to="/feestructure" className="header-link">FEE STRUCTURE</Link>
+            <Link to="/admissions" className="header-link">ADMISSIONS</Link>
+            <Link to="/ygso" className="header-link">YGSO</Link>
+
+            <NavDropdown title={<span className="text-light">TEST SERIES</span>} id="basic-nav-dropdown">
+              <NavDropdown.Item><Link to="/lakshyatestseries2022">Lakshyatestseries2022</Link></NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to="/lakshyatestseries2023">Lakshya test series 2023</Link>
+              </NavDropdown.Item>
+            </NavDropdown>
+
+            <Link to="/newbatches" className="header-link">NEW BATCHES</Link>
+
+
+
 
           </Nav>
         </Navbar.Collapse>

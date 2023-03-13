@@ -87,8 +87,13 @@ import { Chrono } from "react-chrono";
         <>
         <h1>Journey and Milestones</h1>
         <br/>
+<<<<<<< Updated upstream
         <div style={{ width: '1000px', height: '500px' }}>
         <Chrono items={items} slideShow mode="VERTICAL_ALTERNATING" scrollable enableOutline />
+=======
+        <div style={{ width: '500px', height: '950px' }}>
+        <Chrono items={items}  mode="VERTICAL_ALTERNATING"  enableOutline />
+>>>>>>> Stashed changes
       </div>
       </>
     )

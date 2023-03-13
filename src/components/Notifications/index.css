@@ -9,6 +9,7 @@
 .notification-style{
     list-style-type: ">>";
 }
+<<<<<<< Updated upstream
 
 .blink {
     font-size: 9px;
@@ -30,3 +31,5 @@
       opacity: 1;
     }
   }
+=======
+>>>>>>> Stashed changes

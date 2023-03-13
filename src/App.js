@@ -24,12 +24,22 @@ import RegistrationForm from './components/RegistrationForm';
 import AboutNeetUg from './components/AboutNeetUg';
 import AboutJeeAdvance from './components/AboutJeeAdvance';
 import AboutJeeMains from './components/AboutJeeMains';
+import FeeStructure from './components/FeeStructure';
+import Admissions from './components/Admissions';
+import Ygso from './components/Ygso';
+import LakshyaTestSeries2022 from './components/LakshyaTestSeries2022';
+import LakshyaTestSeries2023 from './components/LakshyaTestSeries2023';
+import TopHeader from './components/TopHeader';
+import NewBatches from './components/NewBatches';
+import ContactUs from './components/ContactUs';
+import Careers from './components/Careers';
 
 
 function App() {
   return (
     <div className="App">
     <BrowserRouter>
+    <TopHeader/>
     <Header/>
     <Routes>
       
@@ -51,6 +61,15 @@ function App() {
       <Route exact path="/neetug" element={<AboutNeetUg/>}/>
       <Route exact path="/jeemains" element={<AboutJeeMains/>}/>
       <Route exact path="/jeeadvance" element={<AboutJeeAdvance/>}/>
+      <Route exact path="/feestructure" element={<FeeStructure/>}/>
+      <Route exact path="/admissions" element={<Admissions/>}/>
+      <Route exact path="/ygso" element={<Ygso/>}/>
+      <Route exact path="/lakshyatestseries2022" element={<LakshyaTestSeries2022/>}/>
+      <Route exact path="/lakshyatestseries2023" element={<LakshyaTestSeries2023/>}/>
+      <Route exact path="/newbatches" element={<NewBatches/>}/>
+      <Route exact path="/contactus" element={<ContactUs/>}/>
+      <Route exact path="/careers" element={<Careers/>}/>
+
 
 
 

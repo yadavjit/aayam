@@ -36,14 +36,21 @@ list-style: none;
 
 } */
 .course-link{
-    color:initial;
+    color:#ffff;
     text-decoration: none;
     margin-top:8px;
     
 
 }
 .home-link{
-    color:initial;
+    color:#ffff;
+    text-decoration: none;
+    margin-top:8px;
+    margin-right: 12px;
+    
+}
+.header-link{
+    color:#ffff;
     text-decoration: none;
     margin-top:8px;
     margin-right: 12px;
@@ -54,7 +61,7 @@ list-style: none;
 
 
 .top-section{
-    background-color: brown;
+    background-color:blue;
     
 }
 .nav-option{

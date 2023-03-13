@@ -1,7 +1,7 @@
 import { Dropdown } from 'bootstrap';
 import React from 'react'
 import { useState } from 'react';
-import "./index.css";
+//import "./index.css";
 
 const RegistrationForm = () => {
   const[studentName,setStudentName]=useState();
@@ -58,6 +58,8 @@ const RegistrationForm = () => {
      <div className="registraion">
      <h1>Registration for YGSO</h1>
      <p>Young Genius Science Olympiad</p>
+     </div>
+     
         <form className="registration_form" onSubmit={onRegistration} > 
           <input type="text" placeholder='Student Name' className='product_name' onChange={(event)=>setStudentName(event.target.value)}/>
 
@@ -76,7 +78,7 @@ const RegistrationForm = () => {
 
           </form>
           
-      </div>
+      
      
     </>
   )
