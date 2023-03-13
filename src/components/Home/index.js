@@ -71,7 +71,7 @@ const Home = () => {
         <Card.Text>
         NEET UG is a national level medical entrance examination conducted by NTA (National Testing Agency) for..
         </Card.Text>
-        <Link to="/courses"><Button variant="primary">View Details</Button></Link>
+        <Link to="/courses"><Button className="button" variant="primary">View Details</Button></Link>
       </Card.Body>
     </Card>
     </div>
@@ -82,9 +82,9 @@ const Home = () => {
 <Card.Body>
         <Card.Title>JEE Mains</Card.Title>
         <Card.Text>
-        The Joint Entrance Examination (JEE) is an engineering entrance assessment conducted for admission to various engineering colleges in India. 
+        The Joint Entrance Examination (JEE) is an engineering entrance assessment conducted for admission ..
   </Card.Text>
-        <Link to="/courses"><Button variant="primary">View Details</Button></Link>
+        <Link to="/courses"><Button className="button" variant="primary">View Details</Button></Link>
       </Card.Body>
     </Card>
     </div>
@@ -97,7 +97,7 @@ const Home = () => {
         <Card.Text>
         The Joint Entrance Examination (JEE) is an engineering entrance assessment conducted for admission to various..
         </Card.Text>
-        <Link to="/courses"><Button variant="primary">View Details</Button></Link>
+        <Link to="/courses"><Button className="button" variant="primary">View Details</Button></Link>
       </Card.Body>
     </Card>
     </div>
@@ -107,7 +107,7 @@ const Home = () => {
 <br/>
 
 <div className='distance-courses'>
-    <h1>Distance Courses</h1>
+    <h1 className='title-style'>Distance Courses</h1>
     <div style={{width:"65%"}}>
       <p>Distance courses are provided to those students who are not able to join ambitious classroom courses and wanted to take benefit of best teaching methodology of AAYAM. These courses help the students in many ways according to the need.</p>
     </div>
@@ -119,7 +119,7 @@ const Home = () => {
         <Card.Text>
           Distance courses are provided to those students who are not able to join ambitious classroom courses..
         </Card.Text>
--        <Link to="/courses"><Button variant="primary">View Details</Button></Link>
+       <Link to="/courses"><Button className="button" variant="primary">View Details</Button></Link>
       </Card.Body>
      </Card>
     </div>

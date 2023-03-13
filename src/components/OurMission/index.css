@@ -1,4 +1,31 @@
 .img-logo{
     height:200px;
     width:200px;
+    margin-top: 40px;
+}
+
+.our-mission-container{
+    display: flex;
+    
+    margin: 30px;
+}
+.our-mission-description{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 30px;
+}
+
+.our-mission-heading{
+    font:normal 750 32px "Verdana";
+    color: indigo;
+    text-decoration: underline;
+    text-decoration-color: brown;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.our-mission-info{
+    font:normal 250 18px "Verdana";
+    text-align: justify;
 }

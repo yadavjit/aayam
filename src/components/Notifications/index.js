@@ -21,7 +21,8 @@ const Notifications = () => {
       <Tab eventKey="notifications" title="Notifications">
       
         <ul className='notification-style'>
-          <li>YGSO registration open now <Badge bg="danger">New</Badge></li>
+          <li>YGSO registration open now <Badge className="blink" bg="danger">New</Badge></li>
+          <li>YGSO registration open now YGSO registration open now  <Badge className="blink" bg="danger">New</Badge></li>
         </ul>
       </Tab>
       

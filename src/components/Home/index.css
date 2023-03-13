@@ -8,32 +8,31 @@
 
 .carousel-notification{
     display: flex;
-    padding-left: 60px;
-    padding-right:60px ;
+    padding-left: 40px;
+    padding-right:40px ;
    
 
 }
 
 .carousel-style{
    
-    width: 1000px;
+    width: 900px;
     height: 450px;
 }
 
 .carousal-img{
-    width: 1000px;
+    width: 900px;
     height: 450px;
 }
 
 .notification-container{
     flex-grow: 1;
-    margin-left: 20px;
+    margin-left: 10px;
     box-shadow: 0 0px 10px grey;
   background: rgba(242, 248, 247, 0.952);
   text-align: left;
   border-radius: 5px;
 }
-
 
 
 .title-style{
@@ -62,7 +61,7 @@
   border-radius: 5px;
   overflow: hidden;
   width: 25%;
-  height: 400px;
+  height: 380px;
 }
 
 .course-card-img{
@@ -73,8 +72,10 @@
 
 .distance-courses{
     margin-top: 20px;
-    display: flex;
+    color:indigo;
     text-align: center;
+    
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -111,14 +112,14 @@
     text-decoration-color: rgb(230, 75, 13);
 }
 .about-us-info{
-    text-align:left;
-    font-size: 18px;
+    text-align:justify;
+    font-size: 18px; 
     text-justify:distribute-all-lines;
 }
 
 .cards-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 20px;
 }
 
@@ -127,7 +128,7 @@
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    width: 100px;
+    width: 160px;
     margin: 10px;
     background-color: transparent;
     border: none;
@@ -136,11 +137,14 @@
 
 .card-heading {
     font-size: 36px;
+    font-weight: 600;
     color: #ffffff;
 }
 
 .card-description {
-    font: 20px bold ;
+    font-family:sans-serif;
+    font-style:italic;
+    font-size: 20px ;
     text-align: center;
     color: #ffffff;
 }

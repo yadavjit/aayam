@@ -1,21 +1,11 @@
-.img-logo{
-    height:200px;
-    width:200px;
-}
-
-.our-vision-container{
-    display: flex;
-    
-    margin: 30px;
-}
-.our-vision-description{
+.about-aayam-container{
     display: flex;
     flex-direction: column;
     padding: 30px;
     margin: 30px;
 }
 
-.our-vision-heading{
+.about-aayam-heading{
     font:normal 750 32px "Verdana";
     color: indigo;
     text-decoration: underline;
@@ -24,7 +14,7 @@
     margin-bottom: 30px;
 }
 
-.our-vision-info{
+.about-aayam-info{
     font:normal 250 18px "Verdana";
     text-align: justify;
 }
